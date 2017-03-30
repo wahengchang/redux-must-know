@@ -20,3 +20,6 @@ There should only be a single store in your app.
 ## `dispatch(action)` (Ref)[http://redux.js.org/docs/api/Store.html]
 1. This is the only way to trigger a state change.
 2. The store's reducing function will be called.
+
+## `combineReducers({reducer1, reducer2})` (Ref)[http://redux.js.org/docs/api/combineReducers.html]
+1.  turns an object whose values are different reducing functions into a single reducing function.
