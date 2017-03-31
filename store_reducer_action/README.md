@@ -1,7 +1,7 @@
 
 
 
-## `createStore(reducer, [preloadedState], [enhancer])` (Ref)[https://github.com/reactjs/redux/edit/master/docs/api/createStore.md]
+## `createStore(reducer, [preloadedState], [enhancer])` [Ref](https://github.com/reactjs/redux/edit/master/docs/api/createStore.md)
 Creates a Redux [store](Store.md) that holds the complete state tree of your app.  
 There should only be a single store in your app.
 
@@ -12,14 +12,14 @@ There should only be a single store in your app.
 
 
 
-## `subscribe(listener)` (Ref)[http://redux.js.org/docs/api/Store.html#subscribe]
+## `subscribe(listener)` [Ref](http://redux.js.org/docs/api/Store.html#subscribe)
 1. It will be called any time an action is dispatched, and some part of the state tree may potentially have changed.
 2. Call getState() to read the current state tree inside the callback.
 
 
-## `dispatch(action)` (Ref)[http://redux.js.org/docs/api/Store.html]
+## `dispatch(action)` [Ref](http://redux.js.org/docs/api/Store.html)
 1. This is the only way to trigger a state change.
 2. The store's reducing function will be called.
 
-## `combineReducers({reducer1, reducer2})` (Ref)[http://redux.js.org/docs/api/combineReducers.html]
+## `combineReducers({reducer1, reducer2})` [Ref](http://redux.js.org/docs/api/combineReducers.html)
 1.  turns an object whose values are different reducing functions into a single reducing function.
