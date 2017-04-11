@@ -38,5 +38,5 @@ store.dispatch(asyncAction())
 
 
 ## Referece
- - (https://github.com/gaearon/redux-thunk)[https://github.com/gaearon/redux-thunk]
- - (https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)[https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3]
+ - [https://github.com/gaearon/redux-thunk](https://github.com/gaearon/redux-thunk)
+ - [https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)
